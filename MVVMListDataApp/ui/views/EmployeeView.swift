@@ -1,8 +1,14 @@
-//
-//  EmployeeView.swift
-//  MVVMListData
-//
-//  Created by Muhammad Moin Raza Khan on 01/08/2024.
-//
+import SwiftUI
 
-import Foundation
+struct EmployeeView: View {
+    @ObservedObject var viewModel: EmployeeViewModel
+
+    var body: some View {
+        VStack {
+        }
+        .onAppear {
+            viewModel.fetchEmpData()
+        }
+    }
+}
+

@@ -8,13 +8,17 @@
 import Foundation
 import UIKit
 
-class EmployeeListController: UIViewController{
+class EmployeeUIController: UIViewController{
     
     private var employeeViewModel: EmployeeViewModel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        updateUI()
+        self.employeeViewModel = EmployeeViewModel()
+        self.employeeViewModel.bindEmpViewModeltoEmployeeUIController = { [self] in
+            updateUI()
+        }
+        
     }
     
     private func updateUI(){

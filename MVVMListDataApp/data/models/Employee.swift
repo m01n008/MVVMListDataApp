@@ -7,20 +7,24 @@
 
 import Foundation
 
-struct Employees: Decodable {
+struct Employees: Codable {
     let status: String
     let data: [EmployeeData]
+    let message: String
 }
 
-struct EmployeeData: Decodable {
-    let id, employeeName, employeeSalary, employeeAge: String
+struct EmployeeData: Codable {
+    let id: Int
+    let empName: String
+    let empSalary: Int
+    let empAge: Int
     let profileImage: String
     
-    enum codingKeys: String, CodingKey {
+    enum CodingKeys: String, CodingKey {
         case id
         case empName = "employee_name"
         case empSalary = "employee_salary"
         case empAge = "employee_age"
-        case empProfileImg = "profile_image"
+        case profileImage = "profile_image"
     }
 }

@@ -7,25 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		399844632C5BA30700450A63 /* MVVMListDataAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399844622C5BA30700450A63 /* MVVMListDataAppApp.swift */; };
+		399844632C5BA30700450A63 /* MVVMListDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399844622C5BA30700450A63 /* MVVMListDataApp.swift */; };
 		399844652C5BA30700450A63 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399844642C5BA30700450A63 /* Persistence.swift */; };
 		399844682C5BA30700450A63 /* MVVMListDataApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 399844662C5BA30700450A63 /* MVVMListDataApp.xcdatamodeld */; };
 		3998446A2C5BA30700450A63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399844692C5BA30700450A63 /* ContentView.swift */; };
 		3998446C2C5BA30700450A63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3998446B2C5BA30700450A63 /* Assets.xcassets */; };
 		399844702C5BA30700450A63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3998446F2C5BA30700450A63 /* Preview Assets.xcassets */; };
-		3998447B2C5BA3AE00450A63 /* EmployeeListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3998447A2C5BA3AE00450A63 /* EmployeeListController.swift */; };
+		3998447B2C5BA3AE00450A63 /* EmployeeUIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3998447A2C5BA3AE00450A63 /* EmployeeUIController.swift */; };
+		3998447D2C5BEB7500450A63 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3998447C2C5BEB7500450A63 /* Employee.swift */; };
+		3998447F2C5BEF7900450A63 /* EmployeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3998447E2C5BEF7900450A63 /* EmployeeViewModel.swift */; };
+		399844832C5BF14600450A63 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399844822C5BF14600450A63 /* APIService.swift */; };
+		399844852C5BFCA200450A63 /* EmployeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399844842C5BFCA200450A63 /* EmployeeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3998445F2C5BA30700450A63 /* MVVMListDataApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMListDataApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		399844622C5BA30700450A63 /* MVVMListDataAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMListDataAppApp.swift; sourceTree = "<group>"; };
+		3998445F2C5BA30700450A63 /* MVVMListData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMListData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		399844622C5BA30700450A63 /* MVVMListDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMListDataApp.swift; sourceTree = "<group>"; };
 		399844642C5BA30700450A63 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		399844672C5BA30700450A63 /* MVVMListDataApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MVVMListDataApp.xcdatamodel; sourceTree = "<group>"; };
 		399844692C5BA30700450A63 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3998446B2C5BA30700450A63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3998446D2C5BA30700450A63 /* MVVMListDataApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MVVMListDataApp.entitlements; sourceTree = "<group>"; };
 		3998446F2C5BA30700450A63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3998447A2C5BA3AE00450A63 /* EmployeeListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListController.swift; sourceTree = "<group>"; };
+		3998447A2C5BA3AE00450A63 /* EmployeeUIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeUIController.swift; sourceTree = "<group>"; };
+		3998447C2C5BEB7500450A63 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		3998447E2C5BEF7900450A63 /* EmployeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeViewModel.swift; sourceTree = "<group>"; };
+		399844822C5BF14600450A63 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		399844842C5BFCA200450A63 /* EmployeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +58,7 @@
 		399844602C5BA30700450A63 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3998445F2C5BA30700450A63 /* MVVMListDataApp.app */,
+				3998445F2C5BA30700450A63 /* MVVMListData.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,10 +67,9 @@
 			isa = PBXGroup;
 			children = (
 				399844792C5BA37200450A63 /* controllers */,
-				399844782C5BA36800450A63 /* views */,
-				399844772C5BA36100450A63 /* viewmodels */,
-				399844762C5BA35700450A63 /* models */,
-				399844622C5BA30700450A63 /* MVVMListDataAppApp.swift */,
+				399844812C5BF11E00450A63 /* ui */,
+				399844802C5BF11200450A63 /* data */,
+				399844622C5BA30700450A63 /* MVVMListDataApp.swift */,
 				399844642C5BA30700450A63 /* Persistence.swift */,
 				399844692C5BA30700450A63 /* ContentView.swift */,
 				3998446B2C5BA30700450A63 /* Assets.xcassets */,
@@ -84,6 +91,7 @@
 		399844762C5BA35700450A63 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				3998447C2C5BEB7500450A63 /* Employee.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -91,6 +99,7 @@
 		399844772C5BA36100450A63 /* viewmodels */ = {
 			isa = PBXGroup;
 			children = (
+				3998447E2C5BEF7900450A63 /* EmployeeViewModel.swift */,
 			);
 			path = viewmodels;
 			sourceTree = "<group>";
@@ -98,6 +107,7 @@
 		399844782C5BA36800450A63 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				399844842C5BFCA200450A63 /* EmployeeView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -105,17 +115,35 @@
 		399844792C5BA37200450A63 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3998447A2C5BA3AE00450A63 /* EmployeeListController.swift */,
+				3998447A2C5BA3AE00450A63 /* EmployeeUIController.swift */,
 			);
 			path = controllers;
+			sourceTree = "<group>";
+		};
+		399844802C5BF11200450A63 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				399844762C5BA35700450A63 /* models */,
+				399844822C5BF14600450A63 /* APIService.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		399844812C5BF11E00450A63 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				399844782C5BA36800450A63 /* views */,
+				399844772C5BA36100450A63 /* viewmodels */,
+			);
+			path = ui;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3998445E2C5BA30700450A63 /* MVVMListDataApp */ = {
+		3998445E2C5BA30700450A63 /* MVVMListData */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 399844732C5BA30700450A63 /* Build configuration list for PBXNativeTarget "MVVMListDataApp" */;
+			buildConfigurationList = 399844732C5BA30700450A63 /* Build configuration list for PBXNativeTarget "MVVMListData" */;
 			buildPhases = (
 				3998445B2C5BA30700450A63 /* Sources */,
 				3998445C2C5BA30700450A63 /* Frameworks */,
@@ -125,9 +153,9 @@
 			);
 			dependencies = (
 			);
-			name = MVVMListDataApp;
+			name = MVVMListData;
 			productName = MVVMListDataApp;
-			productReference = 3998445F2C5BA30700450A63 /* MVVMListDataApp.app */;
+			productReference = 3998445F2C5BA30700450A63 /* MVVMListData.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -145,7 +173,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3998445A2C5BA30600450A63 /* Build configuration list for PBXProject "MVVMListDataApp" */;
+			buildConfigurationList = 3998445A2C5BA30600450A63 /* Build configuration list for PBXProject "MVVMListData" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -158,7 +186,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3998445E2C5BA30700450A63 /* MVVMListDataApp */,
+				3998445E2C5BA30700450A63 /* MVVMListData */,
 			);
 		};
 /* End PBXProject section */
@@ -180,10 +208,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				399844632C5BA30700450A63 /* MVVMListDataAppApp.swift in Sources */,
+				399844632C5BA30700450A63 /* MVVMListDataApp.swift in Sources */,
+				3998447D2C5BEB7500450A63 /* Employee.swift in Sources */,
+				3998447F2C5BEF7900450A63 /* EmployeeViewModel.swift in Sources */,
 				399844682C5BA30700450A63 /* MVVMListDataApp.xcdatamodeld in Sources */,
+				399844852C5BFCA200450A63 /* EmployeeView.swift in Sources */,
 				3998446A2C5BA30700450A63 /* ContentView.swift in Sources */,
-				3998447B2C5BA3AE00450A63 /* EmployeeListController.swift in Sources */,
+				3998447B2C5BA3AE00450A63 /* EmployeeUIController.swift in Sources */,
+				399844832C5BF14600450A63 /* APIService.swift in Sources */,
 				399844652C5BA30700450A63 /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +350,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MVVMListData-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -356,6 +389,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MVVMListData-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -384,7 +418,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3998445A2C5BA30600450A63 /* Build configuration list for PBXProject "MVVMListDataApp" */ = {
+		3998445A2C5BA30600450A63 /* Build configuration list for PBXProject "MVVMListData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				399844712C5BA30700450A63 /* Debug */,
@@ -393,7 +427,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		399844732C5BA30700450A63 /* Build configuration list for PBXNativeTarget "MVVMListDataApp" */ = {
+		399844732C5BA30700450A63 /* Build configuration list for PBXNativeTarget "MVVMListData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				399844742C5BA30700450A63 /* Debug */,

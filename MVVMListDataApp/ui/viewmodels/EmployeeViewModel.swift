@@ -7,9 +7,25 @@
 
 import Foundation
 
-class EmployeeViewModel: NSObject {
+class EmployeeViewModel: ObservableObject {
     
-    override init(){
+    private var apiService: APIService!
+    private(set) var empData: Employees! {
+        didSet{
+            self.bindEmpViewModeltoEmployeeUIController()
+        }
+    }
+    
+    
+    var bindEmpViewModeltoEmployeeUIController: () -> () = {}
+    
+    
+    func fetchEmpData(){
+        self.apiService = APIService()
+        self.apiService.fetchEmployeeData { (empData) in
+            self.empData = empData
+            print(empData)
+        }
         
     }
     
