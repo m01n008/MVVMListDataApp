@@ -13,6 +13,7 @@
 		3998446A2C5BA30700450A63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399844692C5BA30700450A63 /* ContentView.swift */; };
 		3998446C2C5BA30700450A63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3998446B2C5BA30700450A63 /* Assets.xcassets */; };
 		399844702C5BA30700450A63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3998446F2C5BA30700450A63 /* Preview Assets.xcassets */; };
+		3998447B2C5BA3AE00450A63 /* EmployeeListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3998447A2C5BA3AE00450A63 /* EmployeeListController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3998446B2C5BA30700450A63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3998446D2C5BA30700450A63 /* MVVMListDataApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MVVMListDataApp.entitlements; sourceTree = "<group>"; };
 		3998446F2C5BA30700450A63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3998447A2C5BA3AE00450A63 /* EmployeeListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,10 @@
 		399844612C5BA30700450A63 /* MVVMListDataApp */ = {
 			isa = PBXGroup;
 			children = (
+				399844792C5BA37200450A63 /* controllers */,
+				399844782C5BA36800450A63 /* views */,
+				399844772C5BA36100450A63 /* viewmodels */,
+				399844762C5BA35700450A63 /* models */,
 				399844622C5BA30700450A63 /* MVVMListDataAppApp.swift */,
 				399844642C5BA30700450A63 /* Persistence.swift */,
 				399844692C5BA30700450A63 /* ContentView.swift */,
@@ -73,6 +79,35 @@
 				3998446F2C5BA30700450A63 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		399844762C5BA35700450A63 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		399844772C5BA36100450A63 /* viewmodels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewmodels;
+			sourceTree = "<group>";
+		};
+		399844782C5BA36800450A63 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		399844792C5BA37200450A63 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3998447A2C5BA3AE00450A63 /* EmployeeListController.swift */,
+			);
+			path = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +183,7 @@
 				399844632C5BA30700450A63 /* MVVMListDataAppApp.swift in Sources */,
 				399844682C5BA30700450A63 /* MVVMListDataApp.xcdatamodeld in Sources */,
 				3998446A2C5BA30700450A63 /* ContentView.swift in Sources */,
+				3998447B2C5BA3AE00450A63 /* EmployeeListController.swift in Sources */,
 				399844652C5BA30700450A63 /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
