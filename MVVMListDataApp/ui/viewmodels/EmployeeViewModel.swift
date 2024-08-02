@@ -10,23 +10,22 @@ import Foundation
 class EmployeeViewModel: ObservableObject {
     
     private var apiService: APIService!
-    private(set) var empData: Employees! {
-        didSet{
-            self.bindEmpViewModeltoEmployeeUIController()
-        }
-    }
+    @Published private(set) var empData: Employees!
     
     
-    var bindEmpViewModeltoEmployeeUIController: () -> () = {}
+    //var bindEmpViewModeltoEmployeeUIController: () -> () = {}
     
     
     func fetchEmpData(){
-        self.apiService = APIService()
-        self.apiService.fetchEmployeeData { (empData) in
-            self.empData = empData
-            print(empData)
+        DispatchQueue.main.async{
+            self.apiService = APIService()
+            self.apiService.fetchEmployeeData { (empData) in
+                DispatchQueue.main.async{
+                    self.empData = empData
+                    print(empData)
+                }
+            }
         }
-        
     }
     
 }

@@ -13,7 +13,7 @@ struct Employees: Codable {
     let message: String
 }
 
-struct EmployeeData: Codable {
+struct EmployeeData: Codable, Identifiable {
     let id: Int
     let empName: String
     let empSalary: Int

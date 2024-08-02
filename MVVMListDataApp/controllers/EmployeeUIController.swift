@@ -15,9 +15,10 @@ class EmployeeUIController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         self.employeeViewModel = EmployeeViewModel()
-        self.employeeViewModel.bindEmpViewModeltoEmployeeUIController = { [self] in
+       /* self.employeeViewModel.bindEmpViewModeltoEmployeeUIController = { [self] in
             updateUI()
         }
+        */
         
     }
     
