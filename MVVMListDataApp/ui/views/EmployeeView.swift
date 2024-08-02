@@ -32,23 +32,6 @@ struct EmployeeView: View {
     }
 }
 
-struct EmployeeDetailView: View {
-    let employee: EmployeeData
-
-    var body: some View {
-        VStack {
-            Image(systemName: "person.crop.circle")
-                .resizable()
-                .frame(width: 100, height: 100)
-            Text(employee.empName)
-                .font(.largeTitle)
-            Text("Salary: \(employee.empSalary)")
-            Text("Age: \(employee.empAge)")
-        }
-        .padding()
-    }
-}
-
 #Preview {
     EmployeeView(viewModel: EmployeeViewModel())
 }
