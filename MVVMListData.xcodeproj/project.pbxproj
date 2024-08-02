@@ -34,6 +34,8 @@
 		3998447E2C5BEF7900450A63 /* EmployeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeViewModel.swift; sourceTree = "<group>"; };
 		399844822C5BF14600450A63 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		399844842C5BFCA200450A63 /* EmployeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeView.swift; sourceTree = "<group>"; };
+		39B1330C2C5CBC7C008DA987 /* data_displayed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = data_displayed.jpg; sourceTree = "<group>"; };
+		39B1330D2C5CBC7C008DA987 /* loading_data.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loading_data.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		399844612C5BA30700450A63 /* MVVMListDataApp */ = {
 			isa = PBXGroup;
 			children = (
+				39B133092C5CBBCB008DA987 /* screenshots */,
 				399844792C5BA37200450A63 /* controllers */,
 				399844812C5BF11E00450A63 /* ui */,
 				399844802C5BF11200450A63 /* data */,
@@ -136,6 +139,15 @@
 				399844772C5BA36100450A63 /* viewmodels */,
 			);
 			path = ui;
+			sourceTree = "<group>";
+		};
+		39B133092C5CBBCB008DA987 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				39B1330C2C5CBC7C008DA987 /* data_displayed.jpg */,
+				39B1330D2C5CBC7C008DA987 /* loading_data.jpg */,
+			);
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
